@@ -22,24 +22,9 @@ We give three examples that can be run directly (the hyperparameters of these th
 
 
 
-https://user-images.githubusercontent.com/47803475/192253832-421e86b7-6d47-4d65-b99e-9581378adbbb.mp4
 
 
 
-
-
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/cat.gif" width="400" alt="cat"/> <img src="https://user-images.githubusercontent.com/47803475/192253832-421e86b7-6d47-4d65-b99e-9581378adbbb.mp4" width="400" alt="cat"/>
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/dog.gif" width="400" alt="cat"/> <img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/dog_RGB.jpg" width="400" alt="cat"/>
-</div>
- 
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/girl.gif" width="400" alt="cat"/> <img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/girl_RGB.jpg" width="400" alt="cat"/>
-</div>
 
 ## Instructions
 To draw arbitrary input: `python process_order.py`. Of course you need to adjust the following parameters.
@@ -78,43 +63,5 @@ results of our method. Our Supplementary Material is available at Baidu Netdisk 
 }
 ```
 
-### Results
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/girl2.gif"   width="1000" alt="girl2"/> 
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/girl2-RGB.png"   width="1000" alt="girl2"/> 
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/beauty.gif"  width="1000"  alt="girl2"/> 
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/beauty-RGB.jpg"  width="1000"  alt="girl2"/> 
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/house-gray.jpg"   width="1000" alt="girl2"/> 
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/house-RGB.jpg"   width="1000" alt="girl2"/> 
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/Two-gray.jpg"  width="1000"  alt="girl2"/> 
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/Two-RGB.jpg"  width="1000"  alt="girl2"/> 
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/David-gray.jpg"  width="1000"  alt="girl2"/> 
-</div>
-
-<div align=center style="white-space: nowrap;">
-<img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/David-RGB.jpg"   width="1000" alt="girl2"/> 
-</div>
+### Videos
+https://user-images.githubusercontent.com/47803475/192253832-421e86b7-6d47-4d65-b99e-9581378adbbb.mp4
