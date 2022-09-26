@@ -6,14 +6,15 @@ An interesting H5 demo using our codes by Xinhua News Agency (新华社) can be 
 Here we give some instructions for running our code.
 ## Authors
 ### First Author
-Zhengyan Tong (童峥岩)， 此论文idea提供者、代码原作者、论文主笔者，主要从事计算机视觉方面的研究。发表此论文时为上海交通大学电子信息与电气工程学院信息工程专业大四在读本科生。联系方式: 418004@sjtu.edu.cn
+Zhengyan Tong (Shanghai Jiao Tong University Master)， 此论文idea提供者、代码原作者、论文主笔者，主要从事计算机视觉方面的研究。发表此论文时为上海交通大学电子信息与电气工程学院硕士研究生。联系方式: 418004@sjtu.edu.cn
 ### Other Authors
+- Xiaohang Wang (Shanghai Jiao Tong University Master)
+- Shengchao Yuan (Shanghai Jiao Tong University Master)
 - Xuanhong Chen (Shanghai Jiao Tong University Ph. D.)  
-- Bingbing Ni (Shanghai Jiao Tong University Associate Professor)  Corresponding author
-- Xiaohang Wang (Shanghai Jiao Tong University Undergraduate)
+- JunJie Wang (Shanghai Jiao Tong University Master)
+- Xiangzhong Fang (Shanghai Jiao Tong University Professor)
 ## Acknowledgments
-- I am extremely grateful to the **Second Author** Xuanhong Chen for his professional advice, comments, and encouragement, which greatly improves this work. 
-- In particular，I would like to express my gratitude to my junior high school classmate Tianhao Shen for his enthusiastic and selfless help in code debugging, although he is not one of the authors of this paper.  
+- I am extremely grateful to my coworkers' advice, comments, and encouragement, which greatly improves this work. 
 
 ## Examples
 We give three examples that can be run directly (the hyperparameters of these three examples have been fixed).  
