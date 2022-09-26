@@ -76,4 +76,4 @@ results of our method. Our Supplementary Material is available at Baidu Netdisk 
 ```
 
 ### Videos
-https://user-images.githubusercontent.com/47803475/192253832-421e86b7-6d47-4d65-b99e-9581378adbbb.mp4
+https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A9.mp4
