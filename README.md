@@ -19,7 +19,7 @@ We give three examples that can be run directly (the hyperparameters of these th
 - To draw the girl: `python girl.py`
 ### Results
 <div align=center style="white-space: nowrap;">
-<img src="https://github.com/TZYSJTU/Im2Oil/blob/main/input/A0.jpg" width="400" alt="cat"/> <img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/cat_RGB.jpg" width="400" alt="cat"/>
+<img src="https://github.com/TZYSJTU/Im2Oil/blob/main/input/A2.jpg" width="400" alt="A2"/> <img src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A2.mp4" width="400" alt="A2"/>
 </div>
 
 
