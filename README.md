@@ -11,7 +11,6 @@ Our Supplementary Material (PDF) is available at Baidu Netdisk (百度网盘) ht
 - Xiangzhong Fang (Shanghai Jiao Tong University Professor)
 ## Acknowledgments
 - I am extremely grateful to my coworkers' advice, comments, and encouragement, which greatly improves this work. 
-
 ## Examples
 We give three examples that can be run directly (the hyperparameters of these three examples have been fixed).  
 ### Quick start
