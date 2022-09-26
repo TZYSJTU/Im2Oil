@@ -18,9 +18,7 @@ We give three examples that can be run directly (the hyperparameters of these th
 - To draw the dog: `python dog.py`
 - To draw the girl: `python girl.py`
 ### Results
-<div align=center style="white-space: nowrap;">
-<img src="https://github.com/TZYSJTU/Im2Oil/blob/main/input/A2.jpg" width="400" alt="A2"/> <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A2.mp4" width="400" controls="controls"></video>
-</div>
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A2.mp4" controls="controls"/>
 
 
 
