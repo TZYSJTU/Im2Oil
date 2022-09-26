@@ -21,7 +21,7 @@ We give three examples that can be run directly (the hyperparameters of these th
 ### Results
 | | | |
 | --- | --- | --- |
-| <video src="/videos/A9.mp4" controls="controls"></video> | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A9.mp4" controls="controls"></video> | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/B8.mp4" controls="controls"></video> |
+| <video src="https://raw.githubusercontent.com/TZYSJTU/Im2Oil/main/videos/A9.mp4" controls="controls"></video> | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A9.mp4" controls="controls"></video> | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/B8.mp4" controls="controls"></video> |
 | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/L8.mp4" controls="controls"></video> | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/P1.mp4" controls="controls"></video> | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/P4.mp4" controls="controls"></video> |
 | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/S1.mp4" controls="controls"></video> | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/S6.mp4" controls="controls"></video> | <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/S9.mp4" controls="controls"></video> |
 
@@ -64,4 +64,8 @@ results of our method. Our Supplementary Material is available at Baidu Netdisk 
 ```
 
 ### Videos
+
+
+
+https://user-images.githubusercontent.com/47803475/192312722-7841b5e6-b836-4b23-b63d-56f9b907a9f8.mp4
 
