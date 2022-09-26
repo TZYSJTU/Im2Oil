@@ -18,7 +18,7 @@ We give three examples that can be run directly (the hyperparameters of these th
 - To draw the cat: `python cat.py`
 - To draw the dog: `python dog.py`
 - To draw the girl: `python girl.py`
-### Results
+### Videos
 | | | |
 | --- | --- | --- |
 | <video src="https://user-images.githubusercontent.com/47803475/192312722-7841b5e6-b836-4b23-b63d-56f9b907a9f8.mp4" controls="controls"></video> | <video src="https://user-images.githubusercontent.com/47803475/192313223-1094902c-a565-43bb-9d35-156c709f6ff8.mp4" controls="controls"></video> | <video src="https://user-images.githubusercontent.com/47803475/192313388-49aa915a-3e18-4010-9af3-380a78f9a65f.mp4" controls="controls"></video> |
@@ -52,15 +52,7 @@ results of our method. Our Supplementary Material is available at Baidu Netdisk 
 
 # To cite our paper
 ```
-@inproceedings{tong2021sketch,
-  title={Sketch generation with drawing process guided by vector flow and grayscale},
-  author={Tong, Zhengyan and Chen, Xuanhong and Ni, Bingbing and Wang, Xiaohang},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={35},
-  number={1},
-  pages={609--616},
-  year={2021}
-}
+
 ```
 
 ### Videos
