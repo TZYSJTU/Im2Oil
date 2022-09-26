@@ -19,7 +19,7 @@ We give three examples that can be run directly (the hyperparameters of these th
 - To draw the dog: `python dog.py`
 - To draw the girl: `python girl.py`
 ### Results
-<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A2.mp4" controls="controls"></video>
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A9.mp4" controls="controls"></video>
 
 <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A9.mp4" controls="controls"></video>
 
