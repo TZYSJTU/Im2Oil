@@ -18,6 +18,17 @@ We give three examples that can be run directly (the hyperparameters of these th
 - To draw the dog: `python dog.py`
 - To draw the girl: `python girl.py`
 ### Results
+
+
+
+
+https://user-images.githubusercontent.com/47803475/192253832-421e86b7-6d47-4d65-b99e-9581378adbbb.mp4
+
+
+
+
+
+
 <div align=center style="white-space: nowrap;">
 <img src="https://raw.githubusercontent.com/TZYSJTU/Sketch-Generation-with-Drawing-Process-Guided-by-Vector-Flow-and-Grayscale/master/Supplementary-Material/cat.gif" width="400" alt="cat"/> <img src="https://raw.githubusercontent.com/TZYSJTU/Im2Oil/blob/main/videos/A2.mkv" width="400" alt="cat"/>
 </div>
