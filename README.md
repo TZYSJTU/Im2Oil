@@ -19,11 +19,14 @@ We give three examples that can be run directly (the hyperparameters of these th
 - To draw the girl: `python girl.py`
 ### Results
 <video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A2.mp4" controls="controls"></video>
-
-
-
-
-
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/A9.mp4" controls="controls"></video>
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/B8.mp4" controls="controls"></video>
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/L8.mp4" controls="controls"></video>
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/P1.mp4" controls="controls"></video>
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/P4.mp4" controls="controls"></video>
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/S1.mp4" controls="controls"></video>
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/S6.mp4" controls="controls"></video>
+<video src="https://github.com/TZYSJTU/Im2Oil/blob/main/videos/S9.mp4" controls="controls"></video>
 
 
 ## Instructions
