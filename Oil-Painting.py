@@ -11,17 +11,17 @@ from search_and_render import *
 if __name__ == '__main__':
 
     default = {
-        # config parameters
+        # config parameters (user control)
         "image":"./input/S1.jpg",           # input image filepath
         "brush":"./brush/brush-0.png",      # brush template
-        "p_max": 1.0/36,                     # maximum Sampling Rate, try to use 1/4, 1/9, 1/16, 1/25, 1/36
+        "p_max": 4,                         # the reciprocal of the Maximum Sampling Rate, use 4, 9, 16, 25, 36
         "seed": 0,                          # np.random.seed()
         "force": True,                      # force recomputation of the anchor Map
         "SSAA" : 8,                         # Super-Sampling Anti-Aliasing                    
-        "freq" : 1000,                       # save one frame every（freq) strokes drawn
+        "freq" : 100,                       # save one frame every（freq) strokes drawn
         "stroke_order_type": 0,             # use 0 for the default size order, use 1 for random order
 
-        # default parameters
+        # default parameters (don't change)
         "padding": 5,                       # padding
         "n_iter": 15,                       # K-means iteration
         "k_size": 5,                        # Sobel and Mean Filter size
@@ -34,26 +34,13 @@ if __name__ == '__main__':
         "background_dir" : None,            # for ETF 
     }
 
-
-    # auto parameters (before SSAA)
-    p_max = default["p_max"]                    # maximum sampling rate
-    p_min = p_max/100                           # minimum sampling rate
-    ratio = default["ratio"]                    # max_length/max_width 
-    max_width = np.sqrt(1/p_min)                # maximum stroke width
-    min_width = np.sqrt(1/p_max)-1              # minimum stroke width
-    max_length = int(ratio * max_width)         # maximum stroke length                       
-    min_length = ratio * min_width              # minimum stroke length
-    padding = default["padding"]                # padding
-
-
-
     description = "Im2Oil: Stroke-Based Oil Painting Rendering with Linearly Controllable Fineness Via Adaptive Sampling"
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument('--f', type=str, default=default["image"],
                         help='input image path')
     parser.add_argument('--b', type=str, default=default["brush"],
                         help='brush template path')
-    parser.add_argument('--p', type=float, default=default["p_max"],
+    parser.add_argument('--p', type=int, default=default["p_max"],
                         help='maximum sampling rate')
     parser.add_argument('--s', type=int, default=default["seed"],
                         help='np.random.seed()')                  
@@ -67,7 +54,18 @@ if __name__ == '__main__':
                         help='0 for default size order, 1 for random order')  
     args = parser.parse_args()
 
-    
+    # auto parameters (before SSAA)
+    p_max = 1.0/args.p                          # maximum sampling rate
+    p_min = p_max/100                           # minimum sampling rate
+    ratio = default["ratio"]                    # max_length/max_width 
+    max_width = np.sqrt(1/p_min)                # maximum stroke width
+    min_width = np.sqrt(1/p_max)-1              # minimum stroke width
+    max_length = int(ratio * max_width)         # maximum stroke length                       
+    min_length = ratio * min_width              # minimum stroke length
+    padding = default["padding"]                # padding
+
+
+
     ####### make directory #######
     if 1:
         filename = os.path.basename(args.f)
@@ -76,7 +74,7 @@ if __name__ == '__main__':
         # point_path = './output/'+filename+"-"+str(p_max)+"/"+filename+'-'+str(point_num)+".npy"
         brush_path = args.b
         brush = cv2.imread(brush_path, cv2.IMREAD_GRAYSCALE)
-        output_path = './output/'+filename+'-p-'+str(int(1/p_max))
+        output_path = './output/'+filename+'-p-'+str(args.p)
         if not os.path.exists(output_path):
             os.makedirs(output_path)
             os.makedirs(output_path+"/anchor")
