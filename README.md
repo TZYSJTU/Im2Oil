@@ -13,7 +13,8 @@ Email: 418004@sjtu.edu.cn
 ## Acknowledgments
 - I am extremely grateful to my coworkers, who greatly help me with this research. 
 
-### Quick Start
+### Instructions
+The input images are in the folder "input", where we have offered 50 examples. The output results will be in the folder "output".
 - To reproduce the result of A2: `python Oil-Painting.py --f "./input/A2.jpg" --p 4`
 - To reproduce the result of A9: `python Oil-Painting.py --f "./input/A8.jpg" --p 4`
 - To reproduce the result of B8: `python Oil-Painting.py --f "./input/B8.jpg" --p 4`
