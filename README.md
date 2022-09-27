@@ -11,7 +11,7 @@ Email: 418004@sjtu.edu.cn
 - JunJie Wang (Shanghai Jiao Tong University Master)
 - Xiangzhong Fang (Shanghai Jiao Tong University Professor)
 ## Acknowledgments
-- I am extremely grateful to my coworkers' advice, comments, and encouragement, which greatly improves this work. 
+- I am extremely grateful to my coworkers, who greatly help me with this research. 
 
 ### Quick Start
 - To reproduce the result of A2: `python Oil-Painting.py --f "./input/A2.jpg" --p 4`
