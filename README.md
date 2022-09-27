@@ -15,15 +15,15 @@ Email: 418004@sjtu.edu.cn
 ## Examples
 We give three examples that can be run directly (the hyperparameters of these three examples have been fixed).  
 ### Quick start
-- To reproduce the result of A2: `python Oil-Painting.py --f "./input/A2.jpg" --p 0.25`
-- To reproduce the result of A9: `python Oil-Painting.py --f "./input/A8.jpg" --p 0.25`
-- To reproduce the result of B8: `python Oil-Painting.py --f "./input/B8.jpg" --p 0.25`
-- To reproduce the result of L8: `python Oil-Painting.py --f "./input/L8.jpg" --p 0.25`
-- To reproduce the result of P1: `python Oil-Painting.py --f "./input/P1.jpg" --p 0.25`
-- To reproduce the result of P4: `python Oil-Painting.py --f "./input/P4.jpg" --p 0.25`
-- To reproduce the result of A2: `python Oil-Painting.py --f "./input/S1.jpg" --p 0.25`
-- To reproduce the result of A9: `python Oil-Painting.py --f "./input/S6.jpg" --p 0.25`
-- To reproduce the result of B8: `python Oil-Painting.py --f "./input/S9.jpg" --p 0.25`
+- To reproduce the result of A2: `python Oil-Painting.py --f "./input/A2.jpg" --p 4`
+- To reproduce the result of A9: `python Oil-Painting.py --f "./input/A8.jpg" --p 4`
+- To reproduce the result of B8: `python Oil-Painting.py --f "./input/B8.jpg" --p 4`
+- To reproduce the result of L8: `python Oil-Painting.py --f "./input/L8.jpg" --p 4`
+- To reproduce the result of P1: `python Oil-Painting.py --f "./input/P1.jpg" --p 4`
+- To reproduce the result of P4: `python Oil-Painting.py --f "./input/P4.jpg" --p 4`
+- To reproduce the result of S1: `python Oil-Painting.py --f "./input/S1.jpg" --p 4`
+- To reproduce the result of S6: `python Oil-Painting.py --f "./input/S6.jpg" --p 4`
+- To reproduce the result of S9: `python Oil-Painting.py --f "./input/S9.jpg" --p 4`
 ### Videos
 | | | |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ To draw arbitrary input: `python process_order.py`. Of course you need to adjust
         # config parameters (user control)
         "image":"./input/S1.jpg",           # input image filepath
         "brush":"./brush/brush-0.png",      # brush template
-        "p_max": 1.0/4,                     # maximum Sampling Rate, try to use 1/4, 1/9, 1/16, 1/25, 1/36
+        "p_max": 4,                         # the reciprocal of the Maximum Sampling Rate, use 4, 9, 16, 25, 36
         "seed": 0,                          # np.random.seed()
         "force": True,                      # force recomputation of the anchor Map
         "SSAA" : 8,                         # Super-Sampling Anti-Aliasing                    
