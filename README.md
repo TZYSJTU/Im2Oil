@@ -15,9 +15,9 @@ Email: 418004@sjtu.edu.cn
 ## Examples
 We give three examples that can be run directly (the hyperparameters of these three examples have been fixed).  
 ### Quick start
-- To draw the cat: `python cat.py`
-- To draw the dog: `python dog.py`
-- To draw the girl: `python girl.py`
+- To reproduce the result of A2: `python Oil-Painting.py --f "./input/A2.jpg" --p 0.25`
+- To reproduce the result of A8: `python Oil-Painting.py --f "./input/A8.jpg" --p 0.25`
+- To reproduce the result of A2: `python Oil-Painting.py --f "./input/A2.jpg" --p 0.25`
 ### Videos
 | | | |
 | --- | --- | --- |
