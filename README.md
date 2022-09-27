@@ -16,8 +16,14 @@ Email: 418004@sjtu.edu.cn
 We give three examples that can be run directly (the hyperparameters of these three examples have been fixed).  
 ### Quick start
 - To reproduce the result of A2: `python Oil-Painting.py --f "./input/A2.jpg" --p 0.25`
-- To reproduce the result of A8: `python Oil-Painting.py --f "./input/A8.jpg" --p 0.25`
-- To reproduce the result of A2: `python Oil-Painting.py --f "./input/A2.jpg" --p 0.25`
+- To reproduce the result of A9: `python Oil-Painting.py --f "./input/A8.jpg" --p 0.25`
+- To reproduce the result of B8: `python Oil-Painting.py --f "./input/B8.jpg" --p 0.25`
+- To reproduce the result of L8: `python Oil-Painting.py --f "./input/L8.jpg" --p 0.25`
+- To reproduce the result of P1: `python Oil-Painting.py --f "./input/P1.jpg" --p 0.25`
+- To reproduce the result of P4: `python Oil-Painting.py --f "./input/P4.jpg" --p 0.25`
+- To reproduce the result of A2: `python Oil-Painting.py --f "./input/S1.jpg" --p 0.25`
+- To reproduce the result of A9: `python Oil-Painting.py --f "./input/S6.jpg" --p 0.25`
+- To reproduce the result of B8: `python Oil-Painting.py --f "./input/S9.jpg" --p 0.25`
 ### Videos
 | | | |
 | --- | --- | --- |
