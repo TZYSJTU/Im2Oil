@@ -25,6 +25,9 @@ The output results will be in the folder "output".
 - To reproduce the result of S1: `python Oil-Painting.py --f "./input/S1.jpg" --p 4`
 - To reproduce the result of S6: `python Oil-Painting.py --f "./input/S6.jpg" --p 4`
 - To reproduce the result of S9: `python Oil-Painting.py --f "./input/S9.jpg" --p 4`
+- To reproduce the result of P0-4: `python Oil-Painting.py --f "./input/P0.jpg" --p 4`
+- To reproduce the result of P0-9: `python Oil-Painting.py --f "./input/P0.jpg" --p 9`
+- To reproduce the result of P0-16: `python Oil-Painting.py --f "./input/P0.jpg" --p 16`
 
 ### Videos
 | | | |
@@ -67,15 +70,7 @@ results of our method. Our Supplementary Material is available at Baidu Netdisk 
 
 ```
 
-https://user-images.githubusercontent.com/47803475/192418665-f08d2e0f-36ca-4468-b137-b1ca9aa63556.mp4
 
-
-
-https://user-images.githubusercontent.com/47803475/192418682-6529fa2c-ca1b-427f-bc68-936922779cc9.mp4
-
-
-
-https://user-images.githubusercontent.com/47803475/192418710-539b78f9-706b-4ea4-9762-fc302db7d54b.mp4
 
 
 
