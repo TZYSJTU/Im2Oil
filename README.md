@@ -29,27 +29,27 @@ We give three examples that can be run directly (the hyperparameters of these th
 ## Instructions
 To draw arbitrary input: `python process_order.py`. Of course you need to adjust the following parameters.
 ### Parameters
-# config parameters (user control)
-"image":"./input/S1.jpg",           # input image filepath
-"brush":"./brush/brush-0.png",      # brush template
-"p_max": 1.0/4,                     # maximum Sampling Rate, try to use 1/4, 1/9, 1/16, 1/25, 1/36
-"seed": 0,                          # np.random.seed()
-"force": True,                      # force recomputation of the anchor Map
-"SSAA" : 8,                         # Super-Sampling Anti-Aliasing                    
-"freq" : 100,                       # save one frame every（freq) strokes drawn
-"stroke_order_type": 0,             # use 0 for the default size order, use 1 for random order
+        # config parameters (user control)
+        "image":"./input/S1.jpg",           # input image filepath
+        "brush":"./brush/brush-0.png",      # brush template
+        "p_max": 1.0/4,                     # maximum Sampling Rate, try to use 1/4, 1/9, 1/16, 1/25, 1/36
+        "seed": 0,                          # np.random.seed()
+        "force": True,                      # force recomputation of the anchor Map
+        "SSAA" : 8,                         # Super-Sampling Anti-Aliasing                    
+        "freq" : 100,                       # save one frame every（freq) strokes drawn
+        "stroke_order_type": 0,             # use 0 for the default size order, use 1 for random order
 
-# default parameters (don't change)
-"padding": 5,                       # padding
-"n_iter": 15,                       # K-means iteration
-"k_size": 5,                        # Sobel and Mean Filter size
-"figsize": 6,                       # anchor map figure size
-"pointsize": (8.0, 8.0),            # point (mix,max) size for the anchor map
-"ratio" : 3,                        # max_length/max_width     
-"threshold_hsv": (30,None,15),      # threshold for hsv color space during searching
-"kernel_radius" : 5,                # ETF kernel_radius
-"ETF_iter" : 15,                    # ETF iteration number
-"background_dir" : None,            # for ETF 
+        # default parameters (don't change)
+        "padding": 5,                       # padding
+        "n_iter": 15,                       # K-means iteration
+        "k_size": 5,                        # Sobel and Mean Filter size
+        "figsize": 6,                       # anchor map figure size
+        "pointsize": (8.0, 8.0),            # point (mix,max) size for the anchor map
+        "ratio" : 3,                        # max_length/max_width     
+        "threshold_hsv": (30,None,15),      # threshold for hsv color space during searching
+        "kernel_radius" : 5,                # ETF kernel_radius
+        "ETF_iter" : 15,                    # ETF iteration number
+        "background_dir" : None,            # for ETF 
 
 In our supplementary material (PDF), we explain these hyperparameters in more detail and we show more comparisons with existing pencil drawing algorithms. We also offer more
 results of our method. Our Supplementary Material is available at Baidu Netdisk (百度网盘) https://pan.baidu.com/s/1ZZEmpuPXRNBPvG0WHbbPKA. The extraction code (提取码) is `1234`.
