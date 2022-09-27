@@ -28,8 +28,8 @@ We give three examples that can be run directly (the hyperparameters of these th
 
 ## Instructions
 To draw arbitrary input: `python process_order.py`. Of course you need to adjust the following parameters.
-### Hyperparameters
-- `input_path = './input/your file'` Input image path
+### Parameters
+- `image = './input/xxx.jpg'` input image filepath
 - `output_path = './output'` Do not change this
 - `n =  10` Gray-scale quantization order
 - `period = 5` Line(stroke) width
