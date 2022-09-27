@@ -12,9 +12,8 @@ Email: 418004@sjtu.edu.cn
 - Xiangzhong Fang (Shanghai Jiao Tong University Professor)
 ## Acknowledgments
 - I am extremely grateful to my coworkers' advice, comments, and encouragement, which greatly improves this work. 
-## Examples
-We give three examples that can be run directly (the hyperparameters of these three examples have been fixed).  
-### Quick start
+
+### Quick Start
 - To reproduce the result of A2: `python Oil-Painting.py --f "./input/A2.jpg" --p 4`
 - To reproduce the result of A9: `python Oil-Painting.py --f "./input/A8.jpg" --p 4`
 - To reproduce the result of B8: `python Oil-Painting.py --f "./input/B8.jpg" --p 4`
@@ -24,6 +23,7 @@ We give three examples that can be run directly (the hyperparameters of these th
 - To reproduce the result of S1: `python Oil-Painting.py --f "./input/S1.jpg" --p 4`
 - To reproduce the result of S6: `python Oil-Painting.py --f "./input/S6.jpg" --p 4`
 - To reproduce the result of S9: `python Oil-Painting.py --f "./input/S9.jpg" --p 4`
+
 ### Videos
 | | | |
 | --- | --- | --- |
@@ -31,9 +31,6 @@ We give three examples that can be run directly (the hyperparameters of these th
 | <video src="https://user-images.githubusercontent.com/47803475/192313447-0190f4fd-9a8e-40d1-9a6b-91d0c368abd9.mp4" controls="controls"></video> | <video src="https://user-images.githubusercontent.com/47803475/192313506-c436fb69-f902-4a13-8965-dd6f68334281.mp4" controls="controls"></video> | <video src="https://user-images.githubusercontent.com/47803475/192313540-55c79205-025e-456e-9f21-7ac33a23ccf3.mp4" controls="controls"></video> |
 | <video src="https://user-images.githubusercontent.com/47803475/192313571-7def236a-b2f2-4749-a8a6-564fd0c21f00.mp4" controls="controls"></video> | <video src="https://user-images.githubusercontent.com/47803475/192313593-27c6075b-1a9c-42b9-8743-58cebd3cbbf2.mp4" controls="controls"></video> | <video src="https://user-images.githubusercontent.com/47803475/192313613-e6355f5d-1ffb-4ae2-8fee-9e6e8125e1e7.mp4" controls="controls"></video> |
 
-
-## Instructions
-To draw arbitrary input: `python process_order.py`. Of course you need to adjust the following parameters.
 ### Parameters
         # config parameters (user control)
         "image":"./input/S1.jpg",           # input image filepath
@@ -64,10 +61,3 @@ results of our method. Our Supplementary Material is available at Baidu Netdisk 
 ```
 
 ```
-
-### Videos
-
-
-
-
-
