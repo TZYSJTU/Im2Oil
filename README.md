@@ -64,7 +64,23 @@ The output results will be in the folder "output".
 
 # To cite our paper
 ```
-
+@inproceedings{10.1145/3503161.3547759,
+author = {Tong, Zhengyan and Wang, Xiaohang and Yuan, Shengchao and Chen, Xuanhong and Wang, Junjie and Fang, Xiangzhong},
+title = {Im2Oil: Stroke-Based Oil Painting Rendering with Linearly Controllable Fineness Via Adaptive Sampling},
+year = {2022},
+isbn = {9781450392037},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3503161.3547759},
+doi = {10.1145/3503161.3547759},
+abstract = {This paper proposes a novel stroke-based rendering (SBR) method that translates images into vivid oil paintings. Previous SBR techniques usually formulate the oil painting problem as pixel-wise approximation. Different from this technique route, we treat oil painting creation as an adaptive sampling problem. Firstly, we compute a probability density map based on the texture complexity of the input image. Then we use the Voronoi algorithm to sample a set of pixels as the stroke anchors. Next, we search and generate an individual oil stroke at each anchor. Finally, we place all the strokes on the canvas to obtain the oil painting. By adjusting the hyper-parameter maximum sampling probability, we can control the oil painting fineness in a linear manner. Comparison with existing state-of-the-art oil painting techniques shows that our results have higher fidelity and more realistic textures. A user opinion test demonstrates that people behave more preference toward our oil paintings than the results of other methods. More interesting results and the code are in https://github.com/TZYSJTU/Im2Oil.},
+booktitle = {Proceedings of the 30th ACM International Conference on Multimedia},
+pages = {1035–1046},
+numpages = {12},
+keywords = {fineness control, stroke-based oil painting, adaptive sampling},
+location = {Lisboa, Portugal},
+series = {MM '22}
+}
 ```
 
 
