@@ -1,6 +1,6 @@
 # Im2Oil: Stroke-Based Oil Painting Rendering with Linearly Controllable Fineness Via Adaptive Sampling
 This is the official implementation of the **ACM MM 2022: ACM International Conference on Multimedia** accepted paper "**Im2Oil: Stroke-Based Oil Painting Rendering with Linearly Controllable Fineness Via Adaptive Sampling**".   
-Our paper's arXiv version is available at: https://arxiv.org/abs/2209.13219
+Our paper's official ACM digital labrary publication: https://dl.acm.org/doi/10.1145/3503161.3547759, and the arXiv version is available at: https://arxiv.org/abs/2209.13219
 Our Supplementary Material (PDF) is available at  
 ## Authors
 - Zhengyan Tong (Shanghai Jiao Tong University Master): 此论文idea提供者、代码原作者、论文主笔者，主要从事计算机视觉方面的研究。发表此论文时为上海交通大学电子信息与电气工程学院硕士研究生。  
