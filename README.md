@@ -29,6 +29,7 @@ The output results will be in the folder "output".
 - To reproduce the result of P0-9: `python Oil-Painting.py --f "./input/P0.jpg" --p 9`
 - To reproduce the result of P0-16: `python Oil-Painting.py --f "./input/P0.jpg" --p 16`
 
+
 ### Videos
 | | | |
 | --- | --- | --- |
